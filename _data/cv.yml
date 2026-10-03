@@ -1,189 +1,149 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Vasily Dunaev
+  label: Robotics R&D Engineer
+  email: vasilysent@gmail.com
+  location: Amsterdam, The Netherlands
+  website: https://vasilysent.github.io
+  summary: Robotics R&D engineer with an MSc in Applied Mathematics and BSc in Robotics, focused on robot dynamics, control, numerical simulation, and mathematical modelling of physical systems. I work across geometric mechanics, simulation, and model-based and learning-based control, with hands-on experience building robotic systems.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: vasilysent
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: vasilysent
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Twente
+        location: Enschede, The Netherlands
+        area: Applied Mathematics
+        studyType: MSc
+        start_date: 2023-09
+        end_date: 2025-08
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Grade: 9.8/10"
+          - "Thesis: [Geometric structure of Cosserat elasticity](https://purl.utwente.nl/essays/108602). Supervisor: Frederic P. Schuller."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Twente
+        location: Enschede, The Netherlands
+        area: Erasmus+ Exchange
+        studyType: Exchange
+        start_date: 2022-02
+        end_date: 2023-02
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Grade: 9/10"
+
+      - institution: ITMO University
+        location: St Petersburg, Russia
+        area: Robotics
+        studyType: BSc
+        start_date: 2019-09
+        end_date: 2023-06
+        highlights:
+          - "Grade: 4.6/5"
+          - Designed and organised an experimental advanced BSc programme in Robotics focused on fundamental subjects. Initially created for my group, the programme was later adopted for subsequent cohorts.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of Twente
+        position: Graduate Researcher
+        location: Enschede, The Netherlands
+        start_date: 2025-09
+        end_date: 2026-09
+        summary: Developed a differential-geometric formulation of the kinematics and dynamics of Cosserat continua, enabling the treatment of general continua with residual stresses. Manuscript in preparation for submission, draft on request.
+
+      - company: University of Twente
+        position: Instructor
+        location: Enschede, The Netherlands
+        start_date: 2022-09
+        end_date: 2025-11
+        summary: Co-taught a master's course on robot modelling, kinematics, and dynamics with Stefano Stramigioli.
         highlights:
-          - Relativity
-          - Description 2.
+          - Covered rigid transformations, twists, wrenches, robot kinematics, dynamics, and torque control.
+          - Delivered lectures and tutorial sessions; designed assignments and exams.
+          - Produced [lecture notes](https://github.com/vasilysent/robotics_course/blob/main/notes.pdf) and video lectures.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: KdVI Institute, University of Amsterdam
+        position: Research Intern
+        location: Amsterdam, The Netherlands
+        start_date: 2025-03
+        end_date: 2025-06
+        summary: Built reusable software for structure-preserving numerical integration on matrix Lie groups, including stable simulation tools for rigid-body dynamics on SO(3) and SE(3).
+
+      - company: Youth Robotics Lab, ITMO University
+        position: Engineer
+        location: St Petersburg, Russia
+        start_date: 2016-09
+        end_date: 2022-01
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - "**Robot-Artist** — led a team of eight building a painting robot. Implemented the robot's motion control, stroke-sequence generation using genetic and simulated-annealing algorithms, designed and built the hardware."
+          - "**ELSA** — created a humanoid robot that plays the flute; designed the CAD model and built the 3D-printed robot's hands. RoboCup Junior 2019 winner."
+          - "**Strawberry Fields** — developed an autonomous strawberry-harvesting prototype; trained a CNN for berry detection and designed a soft robotic gripper. 1st place at the World Robot Olympiad 2018."
+          - "**Teaching** — developed and taught a course on CAD 3D modelling and 3D printing."
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Reinforcement Learning Robotics Project
+        start_date: 2026-05
+        end_date: 2026-05
+        summary: Built a MuJoCo simulation of a torque-controlled UR5e for 6D end-effector pose tracking. Combined a geometric SE(3) spring-damper controller with an RL residual policy that outputs a virtual end-effector wrench.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Publications:
+      - title: Geometric structure of Cosserat elasticity
+        authors:
+          - V. Dunaev
+        publisher: MSc thesis, University of Twente
+        releaseDate: 2025-08
+        url: https://purl.utwente.nl/essays/108602
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - title: Modelling, Dynamics, Kinematics. Lecture notes
+        authors:
+          - V. Dunaev
+        publisher: University of Twente
+        releaseDate: 2025
+        url: https://github.com/vasilysent/robotics_course/blob/main/notes.pdf
+
+      - title: Virtual laboratory for game-based control systems education
+        authors:
+          - A. A. Peregudin
+          - A. M. Popov
+          - E. R. Akhmetgaliev
+          - A. D. Bugrova
+          - M. A. Bystramovich
+          - V. A. Stakanov
+          - V. A. Dunaev
+        publisher: IFAC-PapersOnLine 55(17), 344–349
+        releaseDate: 2022
+        url: https://doi.org/10.1016/j.ifacol.2022.09.303
+
+    Awards:
+      - title: University of Twente Scholarship
+        date: 2023
+        awarder: University of Twente
+        summary: "Recipient, 2023–2025. Value: €12,000 per year."
+
+      - title: RoboCup 2019 — 1st and 2nd Places
+        date: 2019
+        awarder: RoboCup
+        summary: Sydney, Australia. Junior OnStage category.
+
+      - title: World Robot Olympiad 2018 — 1st Place
+        date: 2018
+        awarder: World Robot Olympiad
+        summary: Chiang Mai, Thailand. Open category (Senior).
+
+      - title: RobotChallenge 2018 — 1st Place
+        date: 2018
+        awarder: RobotChallenge
+        summary: Beijing, China. Freestyle category.
+
+    Skills:
+      - name: Robotics
+        icon: fa-solid fa-robot
+        keywords: Robot kinematics and dynamics, model-based control, numerical simulation, reinforcement learning
+
+      - name: Mathematics
+        icon: fa-solid fa-square-root-variable
+        keywords: Differential geometry, Lie groups and Lie algebras, geometric mechanics, optimisation
+
+      - name: Tools
+        icon: fa-solid fa-code
+        keywords: Python, C++, Julia, MATLAB/Simulink, MuJoCo, Git, CAD, LaTeX

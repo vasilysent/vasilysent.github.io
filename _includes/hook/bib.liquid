@@ -1,0 +1,7 @@
+{% comment %}
+  Hook called by the bib layout while it builds the "periodical" line.
+  The layout shows nothing for @book entries, so show their publisher.
+{% endcomment %}
+{% if entry.type == 'book' and entry.publisher %}
+  {% capture entrytype %}<em>{{ entry.publisher }}</em>{{ entrytype }}{% endcapture %}
+{% endif %}
