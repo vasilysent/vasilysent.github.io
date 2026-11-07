@@ -67,6 +67,14 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    {% comment %} Local override: list the courses from `_teachings`, newest first {% endcomment %}
+    {% if page.teaching and site.teachings.size > 0 %}
+      <h2>
+        <a href="{{ '/teaching/' | relative_url }}" style="color: inherit">teaching</a>
+      </h2>
+      {% include teaching_list.liquid %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>

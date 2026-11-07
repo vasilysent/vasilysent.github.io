@@ -1,0 +1,32 @@
+{% comment %}
+  Flat list of the courses in `_teachings`, used on the about page and the teaching page.
+  Courses are ordered by their `year` field, newest first; `year` is not displayed.
+{% endcomment %}
+<style>
+  .about-teaching {
+    list-style: none;
+    padding: 0;
+  }
+  .about-teaching li {
+    margin-bottom: 1rem;
+  }
+  .about-teaching-meta,
+  .about-teaching-description {
+    color: var(--global-text-color-light);
+  }
+</style>
+<ul class="about-teaching">
+  {% assign courses = site.teachings | sort: 'year' | reverse %}
+  {% for course in courses %}
+    <li>
+      <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+      <span class="about-teaching-meta">
+        {%- if course.location %} · {{ course.location }}{% endif -%}
+        {%- if course.term %} · {{ course.term }}{% endif -%}
+      </span>
+      {% if course.description %}
+        <div class="about-teaching-description">{{ course.description }}</div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

@@ -1,7 +1,13 @@
 {% comment %}
   Hook called by the bib layout while it builds the "periodical" line.
-  The layout shows nothing for @book entries, so show their publisher.
+  The layout shows nothing for @book entries, so show their publisher,
+  and it shows only the school for theses, so label the thesis kind.
 {% endcomment %}
 {% if entry.type == 'book' and entry.publisher %}
   {% capture entrytype %}<em>{{ entry.publisher }}</em>{{ entrytype }}{% endcapture %}
+{% endif %}
+{% if entry.type == 'mastersthesis' %}
+  {% capture entrytype %}MSc thesis, {{ entrytype }}{% endcapture %}
+{% elsif entry.type == 'phdthesis' %}
+  {% capture entrytype %}PhD thesis, {{ entrytype }}{% endcapture %}
 {% endif %}
