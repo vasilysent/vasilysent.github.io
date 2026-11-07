@@ -18,10 +18,12 @@ They are complemented by a practical [assignment](https://github.com/vasilysent/
 students complete a Python library for the kinematics and control of serial-chain robots and implement geometric wrench control
 for a trajectory-tracking task with a UR5e robot arm simulated in MuJoCo.
 
-Some materials I developped are on GitHub: [vasilysent/robotics_course](https://github.com/vasilysent/robotics_course).
+Some materials I developed are on GitHub: [vasilysent/robotics_course](https://github.com/vasilysent/robotics_course).
 
 ## Course outline
 
+<!-- prettier-ignore-start -->
+<!-- the {: start=...} lines keep the chapter numbering across the three lists -->
 **I. Mathematical Foundations**
 
 1. Sets, Maps and Notation
@@ -40,6 +42,7 @@ Some materials I developped are on GitHub: [vasilysent/robotics_course](https://
 7. Rigid Body Dynamics
 8. Dynamics of Serial Robots
 {: start="7"}
+<!-- prettier-ignore-end -->
 
 ## Background lecture
 
